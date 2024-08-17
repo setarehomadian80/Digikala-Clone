@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.header {
+  width: 100%;
+  height: 140px;
+}
+div.header > div.one {
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+div.header > div.two {
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+div.one > div.imoji {
+  height: 70px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.one > div.sabt {
+  height: 70px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+div.one > div.sabt > div.icon2 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px;
+  border-color: #f0f0f1;
+  border-left: none;
+  height: 50px;
+}
+div.one > div.sabt > div.text2 {
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px;
+  border-color: #f0f0f1;
+  border-right: none;
+  height: 50px;
+}
+
+div.one > div.khali {
+  height: 70px;
+  flex-grow: 6;
+}
+div.one > div.search {
+  height: 70px;
+  flex-grow: 7;
+}
+div.one > div.search > div.child {
+  width: 95%;
+  height: 50px;
+  background-color: lightgrey;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  background-color: #f0f0f1;
+}
+div.one > div.search > div.child > div.text {
+  flex-grow: 6;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+div.one > div.search > div.child > div.text > p {
+  color: black;
+}
+div.one > div.search > div.child > div.icon {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.one > div.digi {
+  height: 70px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.header > div.two > div.contain {
+  display: flex;
+  justify-content: right;
+}
+div.header > div.two > div.empty {
+  flex-grow: 3;
+}
+div.header > div.two > div.loc {
+  flex-grow: 2;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+div.header > div.two > div.contain > div.yek {
+  width: 150px;
+  height: 70px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+div.header > div.two > div.contain > div.do {
+  width: 150px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.header > div.two > div.contain > div.tree {
+  width: 150px;
+  height: 70px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+div.header > div.two > div.contain > div.four {
+  width: 150px;
+  height: 70px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+div.header > div.two > div.contain > div.five {
+  width: 110px;
+  height: 70px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+div.header > div.two > div.contain > div.six {
+  width: 120px;
+  height: 70px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+div.header > div.two > div.contain > div.seven {
+  width: 130px;
+  height: 70px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+div.header > div.two > div.contain > div.seven > div.pp1 > p {
+  color: #a1a3a8;
+  margin-right: 3px;
+}
+div.header > div.two > div.contain > div.eight {
+  width: 130px;
+  height: 70px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+div.header > div.two > div.contain > div.eight > div.pp > p {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+div.header > div.two > div.contain > div.eight > div.im > img {
+  margin-right: 5px;
+}
+div.header > div.two > div.contain > div.six > div.pp2 > p {
+  color: #a1a3a8;
+  margin-right: 4px;
+}
+div.header > div.two > div.contain > div.six > div.im2 > span {
+  color: #a1a3a8;
+}
+div.header > div.two > div.contain > div.five > div.pp3 > p {
+  color: #a1a3a8;
+  margin-right: 4px;
+}
+div.header > div.two > div.contain > div.four > div.pp4 > p {
+  color: #a1a3a8;
+  margin-right: 4px;
+}
+div.header > div.two > div.contain > div.tree > div.pp5 > p {
+  color: #a1a3a8;
+  margin-right: 4px;
+}
+div.header > div.two > div.contain > div.do > div.pp6 > p {
+  color: #a1a3a8;
+}
+div.header > div.two > div.contain > div.yek > div.pp7 > p {
+  color: #a1a3a8;
+}
+div.header > div.two > div.loc > div.pp8 > p {
+  color: #a1a3a8;
+  margin-left: 15px;
+}
+div.header2 {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+div.header2 > div.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  background-color: #f0f0f1;
+  border: solid 3px #9b479b;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.header3 {
+  width: 100%;
+  height: 120px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+div.header3 > div.square {
+  width: 52px;
+  height: 52px;
+  background-color: #f0f0f1;
+  border-radius: 25px;
+}
+div.header3 > div.square > img {
+  width: 52px;
+  height: 52px;
+}
+section.shegeft {
+  background-color: #d92f4e;
+  padding: 20px 20px;
+  width: 80%;
+  margin: 40px auto;
+  height: 300px;
+}
+section.shegeft img {
+  width: 132px;
+  height: 132px;
+  margin: 0 auto;
+}
+div.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+div.swiper-slide > p {
+  color: #86898f;
+}
+div.swiper-slide > div.content > div.price {
+  display: flex;
+  margin-left: 5px;
+}
+div.content > div.price > img {
+  width: 20px;
+  height: 20px;
+}
+div.swiper-slide > div.content {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: inherit;
+}
+div.swiper-slide > div.content > span {
+  background-color: #d92f4e;
+  border-radius: 10px;
+  padding: 3px;
+  margin-left: 45px;
+}
+h5 {
+  color: #86898f;
+  text-decoration: line-through;
+}
+.setare {
+  background-color: #d92f4e;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  justify-content: center;
+
+}
+.setare > a {
+ margin-bottom: 50px;
+ margin-top: 30px;
+ text-decoration: none;
+ color: #000000;
+}
+.setare > div.ax > img {
+width: 100px;
+height: 80px;
+}
